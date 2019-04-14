@@ -1,0 +1,110 @@
+body {
+background:url('Gray_Gradient.jpg')repeat-x;
+text-align: center;
+
+}
+#main {
+	width: 1000px;
+	height: 30px;
+	background: #fffa0a;
+	margin: 25px auto;
+	border: solid 2px #000000;
+	padding: 16px;
+
+}
+h1 {
+	text-align: center;
+	font-family:"Ubuntu";
+	font: 24pt;
+	color: #ff0c0c;
+}
+hr {
+	height: 2px;
+	color: #000000;
+}
+p {
+	font-family:"Calibri";
+	font-size: 12pt;
+	text-align: left;
+	text-indent: 48px;
+	color: #cd4520;
+}
+#thing {
+	color: #788778;
+}
+#nav {
+	background-color:#5b5b54
+}
+#nav_wrapper {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#nav ul li {
+	display: inline-block;
+}
+#nav ul li:hover {
+	background-color: #96968a;
+	
+}
+#nav ul li a,visited {
+	color: #ffffff;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+#nav ul li:hover ul {
+	display: block;
+	
+}
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: #ff0c0c;
+	border: 2px solid #fffa0a;
+	border-top: 0;
+	margin-left: -2px;
+	min-width: 200px;
+}
+#nav ul ul li{
+	display: block;
+	
+}
+#nav ul ul li a,visited {
+	color: #ffffff;
+}
+#nav ul ul li a:hover {
+	color: #fffa0a;
+}
+#label {
+	float: left;
+	width: 150px;
+	text-align: right;
+	padding-right: 12px;
+	margin-top: 12px;
+	clear: left;
+}
+input, textarea {margin-top: 12px;}
+#simpleForm {
+	background-color:#ccc;
+	width:  80%;
+}
+#theSubmit {
+	margin-left: 150px;
+	padding: 15px;
+}
+#mySlides {
+	height: 200px;
+	width: 300px;
+}
