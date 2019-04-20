@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page Title</title>
+	<style>
+		/* Style the header */
+		header {
+		  background-color: #888;
+		  padding: 30px;
+		  text-align: center;
+		  font-size: 15px;
+		  color: white;
+		}
+
+		/* Create two columns/boxes that floats next to each other */
+		nav {
+		  float: left;
+		  width: 5%;
+		  height: 300px; /* only for demonstration, should be removed */
+		  background: #fff;
+		  padding: 20px;
+		}
+
+		/* Style the list inside the menu */
+		nav ul {
+		  list-style-type: none;
+		  padding: 0;
+		}
+
+		article {
+		  float: left;
+		  padding: 20px;
+		  width: 70%;
+		  background-color: #f1f1f1;
+		  height: 300px; /* only for demonstration, should be removed */
+		}
+
+		/* Clear floats after the columns */
+		section:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		h1   {color: blue;}
+		p    {color: black;}
+		ul   {
+			list-style-type:none;
+			color: white;
+		}
+		a:link {
+		  color: green;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:visited {
+		  color: blue;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:hover {
+		  color: red;
+		  background-color: transparent;
+		  text-decoration: underline;
+		}
+		a:active {
+		  color: white;
+		  background-color: transparent;
+		  text-decoration: underline;
+		}
+
+		footer {
+		  background-color: #777;
+		  padding: 10px;
+		  height: 100%;
+		  text-align: left;
+		  font-size: 20px;
+		  color: white;
+}
+	</style>
+</head>
+<body>
+	<header>
+	  <h2>HTML Coding Practice</h2>
+	</header>
+
+	<section>
+	  <nav>
+	    <ul>
+	      <li><a href="#">html&CSS</a></li>
+	      <li><a href="#">javascripts</a></li>
+	      <li><a href="#">Python</a></li>
+	      <li><a href="#">java</a></li>
+	    </ul>
+  		</nav>
+  	  <article>
+	    <h1>Introduction to HTML</h1>
+	    <p>Hypertext Markup Language(HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.</p>
+		<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+		<p>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997<sup>[*]</sup>.</p>
+
+	  </article>
+	</section>
+
+	<!-- This is a paragraph -->
+	<h1 style="font-family:verdana;">My First Heading</h1>
+	<p style="font-size:160%;">My first paragraph.</p>
+	<! -- horizontal rule line  -->
+	<hr>
+	<p style="text-align:center;"> <b>second paragraph.</b></p>
+	<p><strong><i>This text is strong and italic.</i></strong></p>
+	<p>This is a <small>small</small> font and <del>blue</del>.</p>
+	<! -- break line  -->
+	<br>
+	<p style="color:red;">Third paragraph.</p>
+	<p>Do not forget to buy <mark>milk</mark> today.</p>
+    	<pre>
+		  My Bonnie lies over the ocean.
+
+		  My Bonnie lies over the sea.
+
+		  My Bonnie lies over the ocean.
+
+		  Oh, bring back my Bonnie to me.
+		</pre>
+	<p style="background-color:Tomato;">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+	</p>
+    <!--links  -->
+	<p>
+		<a href="http://mnhuaxia.net/">Huaxia Chinese School</a>
+		<br>
+		<a href="greatwall.jpg">Great Wall</a>
+		<br>
+		<img src="Chania.jpg" width="500" height="333">
+	</p>
+	<hr>
+	<footer>
+	<div id="footer">
+	   <h4>Welcome to Huaxia</h4>
+	   <ul>
+		<li><a href="http://mnhuaxia.net/" aria-current="page">Home</a></li>
+		<br>
+		<li><a href="http://mnhuaxia.net/wp-admin">admin</a></li>
+		</ul>
+	</div><!-- end #footer -->
+	</footer>
+</body>
+</html>
