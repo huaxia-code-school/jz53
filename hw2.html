@@ -3,13 +3,14 @@
 <head>
 <style>
 table#t01 tr:nth-child(even) {
-  background-color: gray;
+  background-color: lightgray;
 }
 table#t01 tr:nth-child(odd) {
   background-color: white;
 }
 table, th, td {
-  border: 1px solid black; 
+  border: 1px solid gray; 
+  border-collapse: collapse;
 }
 th, td {
   padding: 15px;
@@ -34,7 +35,7 @@ th, td {
 <p><i>Registration fee is $20</i></p>
 <h2>Schedule</h2>
 <hr>
-<table>
+<table id="t01">
     <tr>
         <th>Class Description</th>
         <th>Class Time</th>
